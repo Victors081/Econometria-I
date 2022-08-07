@@ -1,0 +1,75 @@
+marca,precio,kilometraje,mejoras,importado
+AMC Concord,4099,22,3,Domestic
+AMC Pacer,4749,17,3,Domestic
+AMC Spirit,3799,22,,Domestic
+Buick Century,4816,20,3,Domestic
+Buick Electra,7827,15,4,Domestic
+Buick LeSabre,5788,18,3,Domestic
+Buick Opel,4453,26,,Domestic
+Buick Regal,5189,20,3,Domestic
+Buick Riviera,10372,16,3,Domestic
+Buick Skylark,4082,19,3,Domestic
+Cad. Deville,11385,14,3,Domestic
+Cad. Eldorado,14500,14,2,Domestic
+Cad. Seville,15906,21,3,Domestic
+Chev. Chevette,3299,29,3,Domestic
+Chev. Impala,5705,16,4,Domestic
+Chev. Malibu,4504,22,3,Domestic
+Chev. Monte Carlo,5104,22,2,Domestic
+Chev. Monza,3667,24,2,Domestic
+Chev. Nova,3955,19,3,Domestic
+Dodge Colt,3984,30,5,Domestic
+Dodge Diplomat,4010,18,2,Domestic
+Dodge Magnum,5886,16,2,Domestic
+Dodge St. Regis,6342,17,2,Domestic
+Ford Fiesta,4389,28,4,Domestic
+Ford Mustang,4187,21,3,Domestic
+Linc. Continental,11497,12,3,Domestic
+Linc. Mark V,13594,12,3,Domestic
+Linc. Versailles,13466,14,3,Domestic
+Merc. Bobcat,3829,22,4,Domestic
+Merc. Cougar,5379,14,4,Domestic
+Merc. Marquis,6165,15,3,Domestic
+Merc. Monarch,4516,18,3,Domestic
+Merc. XR-7,6303,14,4,Domestic
+Merc. Zephyr,3291,20,3,Domestic
+Olds 98,8814,21,4,Domestic
+Olds Cutl Supr,5172,19,3,Domestic
+Olds Cutlass,4733,19,3,Domestic
+Olds Delta 88,4890,18,4,Domestic
+Olds Omega,4181,19,3,Domestic
+Olds Starfire,4195,24,1,Domestic
+Olds Toronado,10371,16,3,Domestic
+Plym. Arrow,4647,28,3,Domestic
+Plym. Champ,4425,34,5,Domestic
+Plym. Horizon,4482,25,3,Domestic
+Plym. Sapporo,6486,26,,Domestic
+Plym. Volare,4060,18,2,Domestic
+Pont. Catalina,5798,18,4,Domestic
+Pont. Firebird,4934,18,1,Domestic
+Pont. Grand Prix,5222,19,3,Domestic
+Pont. Le Mans,4723,19,3,Domestic
+Pont. Phoenix,4424,19,,Domestic
+Pont. Sunbird,4172,24,2,Domestic
+Audi 5000,9690,17,5,Foreign
+Audi Fox,6295,23,3,Foreign
+BMW 320i,9735,25,4,Foreign
+Datsun 200,6229,23,4,Foreign
+Datsun 210,4589,35,5,Foreign
+Datsun 510,5079,24,4,Foreign
+Datsun 810,8129,21,4,Foreign
+Fiat Strada,4296,21,3,Foreign
+Honda Accord,5799,25,5,Foreign
+Honda Civic,4499,28,4,Foreign
+Mazda GLC,3995,30,4,Foreign
+Peugeot 604,12990,14,,Foreign
+Renault Le Car,3895,26,3,Foreign
+Subaru,3798,35,5,Foreign
+Toyota Celica,5899,18,5,Foreign
+Toyota Corolla,3748,31,5,Foreign
+Toyota Corona,5719,18,5,Foreign
+VW Dasher,7140,23,4,Foreign
+VW Diesel,5397,41,5,Foreign
+VW Rabbit,4697,25,4,Foreign
+VW Scirocco,6850,25,4,Foreign
+Volvo 260,11995,17,5,Foreign
