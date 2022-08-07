@@ -27,3 +27,5 @@
 # ¡Bienvenidos!
 
 pacman::p_load(dplyr, ggplot2)
+
+data <- read.csv("data/datos1.csv")
