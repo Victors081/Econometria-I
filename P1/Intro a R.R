@@ -28,4 +28,57 @@
 
 pacman::p_load(dplyr, ggplot2)
 
+
+# FORMA 1
+
 data <- read.csv("data/datos1.csv")
+
+# FORMA 2
+
+data <- read.csv("https://www.dropbox.com/s/cacy2yhvn2niqkb/datos1.csv?dl=1")
+
+# FORMA 3
+
+data <- read.csv(file.choose())
+
+
+# FORMA 4
+
+data <- read.csv("C:/Users/Victor/Desktop/PRACTICAS/data/datos1.csv")
+
+
+names(data)
+
+
+head(data)
+
+
+tail(data)
+
+
+
+x = 4 + 5.5
+
+class(x)
+
+
+y = "1"
+
+class(y)
+
+
+z = 3L
+
+class(z)
+
+
+w = 2 > 3
+
+class(w)
+
+
+
+
+
+
+
