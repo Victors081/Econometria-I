@@ -26,55 +26,98 @@
 
 # ¡Bienvenidos!
 
-pacman::p_load(dplyr, ggplot2)
 
 
-# FORMA 1
+carros <- read.csv("data/datos1.csv")
 
-data <- read.csv("data/datos1.csv")
 
-# FORMA 2
+
+rm(data)
+
+
+
 
 data <- read.csv("https://www.dropbox.com/s/cacy2yhvn2niqkb/datos1.csv?dl=1")
 
-# FORMA 3
+
+
 
 data <- read.csv(file.choose())
 
 
-# FORMA 4
+head(data, n = 20)
 
-data <- read.csv("C:/Users/Victor/Desktop/PRACTICAS/data/datos1.csv")
+tail(data, n=20)
+
+
+
+str(data)
+
+
+
+
+2+3
+
+x <- 2.5+3
+
+
+y <- "4"
+
+class(y)
+
+class(x)
+
+
+
+
+z <-  2 > 3
+
+
+
+
+pacman::p_load(ggplot2, dplyr, Hmisc)
+
+
+
+
+table(data$importado)
 
 
 names(data)
 
 
-head(data)
-
-
-tail(data)
 
 
 
-x = 4 + 5.5
-
-class(x)
+data$dummy <- ifelse(data$importado == "Foreign",1,0)
 
 
-y = "1"
 
-class(y)
-
-
-z = 3L
-
-class(z)
+data$dummy <- NULL
 
 
-w = 2 > 3
 
-class(w)
+summary(data)
+
+
+
+describe(data)
+
+
+
+save.image("data/practica 1.RData")
+
+
+
+
+
+load("data/practica 1.RData")
+
+
+
+
+
+
 
 
 
