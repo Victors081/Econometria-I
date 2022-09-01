@@ -87,6 +87,13 @@ datos$error <- residuals(modelo2)
 
 
 
+confint(modelo2)
+
+
+x <- predict(modelo2, newdata= data.frame(
+  kilometraje = mean(datos$kilometraje),
+  mejoras = mean(datos$mejoras)
+))
 
 
 
