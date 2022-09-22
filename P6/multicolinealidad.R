@@ -82,8 +82,20 @@ vif(m2)
 
 
 
+m3 <- lm(precio ~ kilometraje+mejoras, data=datos, na.action = na.exclude)
 
 
+
+summary(m3)
+
+
+
+
+m4 <- lm(precio ~ kilometraje+mejoras, data=datos1)
+
+
+
+summary(m4)
 
 
 
