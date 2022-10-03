@@ -85,15 +85,13 @@ summary(m1)
 bptest(m1)
 
 
-
-#install.packages("car")
-library(dplyr)
 library(car)
 
-#bptest(m1, ~fitted(m1)+I(fitted(m1)^2))
+
+bptest(m1, varformula = ~ kilometraje * mejoras + I(kilometraje^2) + I(mejoras^2), data=datos1) # LINEA CORREGIDA
 
 
-
+library(dplyr)
 
 datos1 <- datos1 %>% mutate(
   mejoras2 = mejoras^2,
