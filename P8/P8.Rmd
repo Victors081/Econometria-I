@@ -1,0 +1,93 @@
+---
+title: "PRACTICA 8"
+author: "Victor Manuel Sarmiento Garcia"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+
+
+# AUTOCORRELACIÓN
+
+
+```{r}
+
+datos <- read.csv("data/datospauto.csv")
+
+
+datos
+
+```
+
+## Estadisticas descriptivas
+
+```{r}
+
+summary(datos)
+
+
+par(mfrow=c(1,2))
+
+
+
+plot(datos$yr, datos$consump,type = "l")
+
+
+plot(datos$yr, datos$wagegovt, type = "l")
+
+```
+
+
+## MODELO
+
+
+```{r}
+
+names(datos)
+
+m1 <- lm(consump ~ wagegovt, data = datos, na.action = na.exclude)
+
+summary(m1)
+
+
+library(jtools)
+
+summ(m1)
+
+```
+
+# PRUEBAS INFORMALES
+
+```{r}
+
+
+# Predicciones de la variable dependiente y el error 
+datos$predicted <- predict(m1)   
+datos$residuals <- residuals(m1)
+
+plot(datos$residuals, pch=18, col="red", type="b", lty=2)
+
+```
+
+
+No hay evidencia de un potencial problema de autocorrelacion. No hay 
+cambios constantes de signos.
+
+
+# PRUEBAS FORMALES
+
+```{r}
+library(lmtest)
+
+dwtest(m1, alternative = "two.sided")
+
+bgtest(m1)
+
+```
+
+
+
+
+
